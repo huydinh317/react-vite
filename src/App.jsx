@@ -6,7 +6,7 @@ import MyComponent from './components/learn/MyComponents'
 
 const App = () => {
   const [count, setCount] = useState(0)
-// () = { }
+  // () = { }
   return (
     <>
       <div>
