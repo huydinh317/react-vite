@@ -1,0 +1,109 @@
+.todo-container {
+    max-width: 500px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fefefe;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .todo-new {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-new input {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .todo-new button {
+    flex-shrink: 0;
+    padding: 10px 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-new button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-data > div {
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #e3f2fd;
+    color: #333;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* 🔄 Responsive adjustments */
+  @media (max-width: 500px) {
+    .todo-title {
+      font-size: 20px;
+    }
+  
+    .todo-new input {
+      font-size: 14px;
+    }
+  
+    .todo-new button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+.todo-image {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
